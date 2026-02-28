@@ -25,12 +25,12 @@ function App() {
       />
       <main>
         <Hero />
-        <Stats />
-        <Ventures />
         <About />
+        <Ventures />
+        <CSR />
+        <Stats />
         <Media />
         <Testimonials />
-        <CSR />
         <Contact />
       </main>
       <Footer />

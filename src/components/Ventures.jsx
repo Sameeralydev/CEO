@@ -15,9 +15,9 @@ function Ventures() {
       <SectionReveal className="section-shell space-y-8">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
-            <p className="text-xs uppercase tracking-[0.35em] text-gold/90">Portfolio</p>
+            <p className="text-xs uppercase tracking-[0.35em] text-gold/90">My Ventures</p>
             <h3 id="ventures-heading" className="mt-3 font-display text-4xl text-ivory">
-              Venture Portfolio
+              Portfolio of Businesses
             </h3>
           </div>
           <div className="flex flex-wrap gap-2">

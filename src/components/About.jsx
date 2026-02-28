@@ -8,9 +8,10 @@ function About() {
         <div>
           <p className="text-xs uppercase tracking-[0.35em] text-gold/90">About</p>
           <h3 id="about-heading" className="mt-3 font-display text-4xl text-ivory">
-            Founder Story
+            {siteContent.about.heading}
           </h3>
           <p className="mt-5 max-w-3xl text-ivory/75">{siteContent.about.story}</p>
+          <p className="mt-4 max-w-3xl text-ivory/75">{siteContent.about.story2}</p>
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             {siteContent.about.values.map((value) => (
               <article key={value.title} className="rounded-2xl border border-white/10 bg-white/[0.02] p-5">

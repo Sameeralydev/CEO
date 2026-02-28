@@ -37,6 +37,17 @@ function Contact() {
           <h3 id="contact-heading" className="font-display text-4xl text-ivory">
             {siteContent.contact.heading}
           </h3>
+          <div className="space-y-2 text-sm text-ivory/75">
+            <p>
+              <span className="text-ivory">Email:</span> {siteContent.contact.email}
+            </p>
+            <p>
+              <span className="text-ivory">Phone:</span> {siteContent.contact.phone}
+            </p>
+            <p>
+              <span className="text-ivory">Location:</span> {siteContent.contact.location}
+            </p>
+          </div>
           <div className="flex flex-wrap gap-3">
             <a
               href={siteContent.contact.links.whatsapp}

@@ -1,11 +1,12 @@
 import { scrollToSection } from '../utils/scrollToSection';
 
 const navLinks = [
-  { label: 'Ventures', id: 'ventures' },
   { label: 'About', id: 'about' },
-  { label: 'Media', id: 'media' },
-  { label: 'Testimonials', id: 'testimonials' },
-  { label: 'CSR', id: 'csr' },
+  { label: 'Ventures', id: 'ventures' },
+  { label: 'What I Do', id: 'what-i-do' },
+  { label: 'Achievements', id: 'achievements' },
+  { label: 'Gallery', id: 'gallery' },
+  { label: 'Collaborate', id: 'collaboration' },
   { label: 'Contact', id: 'contact' },
 ];
 

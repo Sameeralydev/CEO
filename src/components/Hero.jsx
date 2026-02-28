@@ -18,19 +18,20 @@ function Hero() {
             <h1 className="font-display text-4xl leading-tight text-ivory sm:text-5xl lg:text-6xl">{siteContent.profile.name}</h1>
             <h2 className="text-lg font-semibold text-ivory/90 md:text-xl">{siteContent.profile.title}</h2>
             <p className="max-w-xl text-base text-ivory/75 md:text-lg">{siteContent.profile.tagline}</p>
+            <p className="max-w-xl text-sm text-ivory/70 md:text-base">{siteContent.profile.subTagline}</p>
             <div className="flex flex-wrap gap-4">
               <button
                 type="button"
                 onClick={() => scrollToSection('ventures')}
                 className="rounded-full border border-gold bg-gold px-6 py-3 text-sm font-semibold text-noir transition hover:bg-transparent hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
               >
-                View Ventures
+                {siteContent.profile.ctaPrimary}
               </button>
               <a
-                href="#"
+                href="#contact"
                 className="rounded-full border border-white/25 px-6 py-3 text-sm font-semibold text-ivory transition hover:border-gold hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
               >
-                Book a Meeting
+                {siteContent.profile.ctaSecondary}
               </a>
             </div>
           </motion.div>

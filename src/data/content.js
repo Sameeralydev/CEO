@@ -1,178 +1,223 @@
 export const siteContent = {
   profile: {
-    name: 'Umer Riaz',
-    title: 'Entrepreneur | Investor | Founder',
-    tagline: 'I build & scale businesses across real estate, commerce, and logistics.',
+    name: 'Rana Umer Riaz',
+    title: 'Educationist | Entrepreneur | Public Speaker | Life Coach',
+    tagline:
+      'Building impactful ventures across education, technology, digital commerce, and personal development for over 22 years.',
+    subTagline:
+      'Passionate about learning, innovation, leadership, and community uplift. Always open to collaborations.',
     image: '/UmerRiaz.png',
-    chips: ['10+ yrs', '5 ventures', '200+ team'],
+    chips: ['22+ Years', 'Multi-Sector Ventures', 'Collaboration Ready'],
+    ctaPrimary: 'Explore My Work',
+    ctaSecondary: "Let's Collaborate",
   },
-  stats: [
-    { label: 'Years', value: '10+ Years' },
-    { label: 'Businesses', value: '5 Businesses' },
-    { label: 'Team', value: '200+ Team' },
-    { label: 'Scale', value: ' Revenue / 1M+ Customers' },
-  ],
+  stats: {
+    heading: 'Achievements & Experience',
+    items: [
+      { label: 'Experience', value: '22+ years since 2005' },
+      { label: 'Ventures', value: 'Multiple successful companies' },
+      { label: 'Leadership', value: 'Hundreds of teams trained' },
+      { label: 'Community', value: 'Recognized Rotarian contributor' },
+      { label: 'Model', value: 'Innovation-driven business and education leadership' },
+    ],
+  },
   ventures: [
     {
-      name: 'Aurelia Residences',
-      industry: 'Real Estate',
-      description: 'Premium mixed-use developments in high-growth urban corridors.',
-      kpis: { Branches: '7', Clients: '1,200+', Growth: '34% YoY' },
+      name: 'School Franchise System',
+      industry: 'Education Ventures',
+      description: 'Structured, value-based schooling framework designed for quality and scalable growth.',
+      kpis: { Focus: 'Quality Education', Scale: 'Franchise Ready', Impact: 'Community Uplift' },
       url: '#',
-      cta: 'Case Study',
+      cta: 'Explore',
       image:
-        'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80',
+        'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80',
     },
     {
-      name: 'Northline Commerce',
-      industry: 'E-commerce',
-      description: 'Direct-to-consumer lifestyle portfolio across GCC and South Asia.',
-      kpis: { Branches: '3 hubs', Clients: '420K', Growth: '52% YoY' },
+      name: 'Online / Home Schooling Model',
+      industry: 'Education Ventures',
+      description: 'Flexible and modern digital learning ecosystem for students and families.',
+      kpis: { Mode: 'Hybrid Learning', Reach: 'Remote Access', Value: 'Future-Ready' },
       url: '#',
-      cta: 'Visit',
+      cta: 'Explore',
       image:
-        'https://images.unsplash.com/photo-1556742049-908c7c8e1f34?auto=format&fit=crop&w=1200&q=80',
+        'https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=1200&q=80',
     },
     {
-      name: 'Velocity Freight',
-      industry: 'Logistics',
-      description: 'Cross-border fulfillment and same-day urban last-mile operations.',
-      kpis: { Branches: '11', Clients: '650+', Growth: '41% YoY' },
+      name: 'Software House',
+      industry: 'Technology & Digital Businesses',
+      description: 'Custom software solutions focused on performance, reliability, and business outcomes.',
+      kpis: { Delivery: 'Product-First', Domain: 'Multi-Industry', Approach: 'Scalable Systems' },
       url: '#',
-      cta: 'Visit',
+      cta: 'Explore',
       image:
-        'https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=1200&q=80',
+        'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80',
     },
     {
-      name: 'EstateCore Capital',
-      industry: 'Real Estate',
-      description: 'Asset-backed investment platform focused on resilient portfolios.',
-      kpis: { Branches: '4 offices', Clients: '300+', Growth: '29% YoY' },
+      name: 'Digital Marketing Agency',
+      industry: 'Technology & Digital Businesses',
+      description: 'Digital strategy, brand growth, and performance campaigns across industries.',
+      kpis: { Services: '360 Marketing', Strength: 'Brand + Growth', Model: 'Data-Driven' },
       url: '#',
-      cta: 'Case Study',
+      cta: 'Explore',
       image:
-        'https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1200&q=80',
+        'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80',
     },
     {
-      name: 'Lumen Market',
-      industry: 'E-commerce',
-      description: 'AI-assisted marketplace operations with premium private-label lines.',
-      kpis: { Branches: '2 studios', Clients: '860K', Growth: '63% YoY' },
+      name: 'Multi-category E-commerce Hub',
+      industry: 'E-Commerce Ecosystem',
+      description: 'Diversified online commerce platform serving wide customer segments.',
+      kpis: { Categories: 'Multi-Vertical', Model: 'Customer-Centric', Scale: 'Growth Focused' },
       url: '#',
-      cta: 'Visit',
+      cta: 'Explore',
       image:
-        'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+        'https://images.unsplash.com/photo-1556742031-c6961e8560b0?auto=format&fit=crop&w=1200&q=80',
     },
     {
-      name: 'Atlas Chain',
-      industry: 'Logistics',
-      description: 'Cold-chain and pharma-grade transportation infrastructure.',
-      kpis: { Branches: '15', Clients: '90 enterprise', Growth: '37% YoY' },
+      name: 'Product-based Online Stores',
+      industry: 'E-Commerce Ecosystem',
+      description: 'Dedicated stores built for niche demand and strong conversion performance.',
+      kpis: { Format: 'D2C Stores', Focus: 'Product Quality', Growth: 'Sustainable' },
       url: '#',
-      cta: 'Case Study',
+      cta: 'Explore',
       image:
-        'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80',
+        'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+    },
+    {
+      name: 'Niche Online Marketplaces',
+      industry: 'E-Commerce Ecosystem',
+      description: 'Category-specific marketplaces designed for trust, selection, and convenience.',
+      kpis: { Model: 'Niche Market', Value: 'Curated Supply', Outcome: 'Strong Retention' },
+      url: '#',
+      cta: 'Explore',
+      image:
+        'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=1200&q=80',
+    },
+    {
+      name: 'Handcrafted Leather Products Brand',
+      industry: 'Lifestyle & Creative Ventures',
+      description: 'Premium handcrafted leather products blending craftsmanship with modern utility.',
+      kpis: { Craft: 'Handmade', Positioning: 'Premium', Market: 'Digital First' },
+      url: '#',
+      cta: 'Explore',
+      image:
+        'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1200&q=80',
+    },
+    {
+      name: 'Online Plant Selling Platform',
+      industry: 'Lifestyle & Creative Ventures',
+      description: 'Lifestyle commerce venture promoting greener spaces and wellness habits.',
+      kpis: { Category: 'Plants', Mission: 'Nature & Wellness', Audience: 'Urban Homes' },
+      url: '#',
+      cta: 'Explore',
+      image:
+        'https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=1200&q=80',
     },
   ],
   about: {
+    heading: 'About Me',
     story:
-      'Over the last decade, I have built ventures designed for scale, discipline, and long-term value. My work centers on turning fragmented opportunities into durable, category-leading businesses through strong teams and operational depth.',
+      'I am Rana Umer Riaz (Umer Riaz EducationWala) - an educationist, entrepreneur, and leadership consultant with more than 22 years of experience in building purposeful systems and scalable ventures. My professional journey spans a school franchise network, an online homeschooling model, a thriving e-commerce hub, a software house, and a digital marketing agency, each created with a vision to uplift communities and enable growth.',
+    story2:
+      'Beyond entrepreneurship, I am an aviculturist, gardener, yogi, cyclist, Rotarian, public speaker, and life coach committed to lifelong learning, personal development, and social contribution. Driven by innovation and meaningful impact, I am always open to collaboration for future ventures and high-value partnerships.',
     values: [
       {
         title: 'Vision',
-        text: 'Build institutions that remain relevant for decades, not trends that fade in quarters.',
+        text: 'Create meaningful systems that empower people, communities, and institutions for the long term.',
       },
       {
-        title: 'Leadership style',
-        text: 'High-ownership teams, clear decision rights, and calm execution under pressure.',
+        title: 'Leadership',
+        text: 'Build high-trust teams, clear execution models, and value-driven growth frameworks.',
       },
       {
-        title: 'Growth philosophy',
-        text: 'Sustainable expansion anchored in unit economics, people development, and trust.',
+        title: 'Philosophy',
+        text: 'Lifelong learning, personal development, and social contribution through innovation.',
       },
     ],
     timeline: [
-      { year: '2016', event: 'Launched first real estate venture with one regional office.' },
-      { year: '2019', event: 'Expanded to e-commerce with cross-border operations.' },
-      { year: '2021', event: 'Built logistics network serving enterprise accounts.' },
-      { year: '2024', event: 'Reached 1M+ customers across portfolio.' },
-      { year: '2025', event: 'Established community scholarship and skills foundation.' },
+      { year: '2005', event: 'Started professional journey focused on education and leadership.' },
+      { year: '2012', event: 'Expanded into entrepreneurship with scalable venture models.' },
+      { year: '2018', event: 'Launched technology, software, and digital growth initiatives.' },
+      { year: '2022', event: 'Strengthened e-commerce and lifestyle ventures across categories.' },
+      { year: 'Today', event: 'Collaborating globally on education, innovation, and impact-driven projects.' },
     ],
   },
-  media: {
-    logos: ['Forbes', 'Bloomberg', 'CNBC', 'The Economist', 'TechCrunch'],
-    items: [
+  whatIDo: [
+    {
+      title: 'Education Development',
+      text: 'Building modern, value-based schooling systems and digital learning models.',
+    },
+    {
+      title: 'Business & Startup Leadership',
+      text: 'Creating and scaling ventures across technology, retail, and education.',
+    },
+    {
+      title: 'Digital Growth & Strategy',
+      text: 'Leading digital transformation, branding, and growth strategy across industries.',
+    },
+    {
+      title: 'Public Speaking & Training',
+      text: 'Speaking on leadership, entrepreneurship, mindset, and youth development.',
+    },
+    {
+      title: 'Nature & Wellness Lifestyle',
+      text: 'Aviculture, gardening, yoga, cycling, and community service.',
+    },
+  ],
+  gallery: {
+    heading: 'Gallery / Life in Visuals',
+    subtitle: "Inspired by Richard Branson's storytelling and GaryVee's lifestyle gallery style.",
+    images: [
       {
-        title: 'Scaling Through Volatility: CEO Operating Principles',
-        outlet: 'Bloomberg Business',
-        year: '2025',
-        url: '#',
-        type: 'Watch',
+        src: 'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80',
+        alt: 'Leadership session',
       },
       {
-        title: 'From Founder to Institution Builder',
-        outlet: 'Forbes Middle East',
-        year: '2024',
-        url: '#',
-        type: 'Read',
+        src: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80',
+        alt: 'Team collaboration',
       },
       {
-        title: 'Leadership in Multi-Industry Expansion',
-        outlet: 'Global Leadership Summit',
-        year: '2023',
-        url: '#',
-        type: 'Watch',
+        src: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80',
+        alt: 'Business strategy workshop',
+      },
+      {
+        src: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=1200&q=80',
+        alt: 'Nature and wellness lifestyle',
+      },
+      {
+        src: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80',
+        alt: 'Public speaking event',
       },
     ],
   },
-  testimonials: [
-    {
-      quote:
-        'He combines strategic patience with fast execution. Few founders balance both this well.',
-      name: 'Aisha Rahman',
-      company: 'Managing Partner, Horizon Capital',
-    },
-    {
-      quote:
-        'Every venture under his leadership shows consistent process maturity and measurable growth.',
-      name: 'David Lee',
-      company: 'Regional Director, Prime Logistics Group',
-    },
-    {
-      quote:
-        'A principled operator with a long-game mindset. The partnership quality is exceptional.',
-      name: 'Nadia Qureshi',
-      company: 'CEO, Meridian Retail Network',
-    },
-  ],
-  partners: ['Horizon', 'Meridian', 'Vertex', 'AlphaOne', 'Axis Holdings'],
-  csr: [
-    {
-      title: 'Charity & Relief',
-      text: 'Emergency response partnerships for food, healthcare, and family support.',
-      metric: '50K+ lives supported',
-    },
-    {
-      title: 'Training & Employment',
-      text: 'Practical training programs in operations, sales, and technology skills.',
-      metric: '4,200+ people trained',
-    },
-    {
-      title: 'Scholarships & Community',
-      text: 'Scholarships and mentorship programs for high-potential students.',
-      metric: '680 scholarships funded',
-    },
-  ],
+  collaboration: {
+    heading: 'Collaboration & Consulting',
+    intro:
+      'I actively collaborate with investors, startups, schools and education systems, digital businesses, and social impact projects.',
+    outro:
+      'If your project aims to create value, empower people, or build future-focused systems - let us collaborate.',
+    points: [
+      'Investors',
+      'Startups',
+      'Schools & Education Systems',
+      'Digital Businesses',
+      'Social Impact Projects',
+    ],
+    cta: 'Start a Collaboration',
+    ctaLink: '#contact',
+  },
   contact: {
-    heading: 'For partnerships, investments, speaking',
+    heading: "Let's Build Something That Matters.",
+    email: 'your-email@domain.com',
+    phone: '+92-XXX-XXXXXXX',
+    location: 'Pakistan (Available globally)',
     links: {
       whatsapp: '#',
-      email: 'mailto:hello@ceobrand.com',
+      email: 'mailto:your-email@domain.com',
       calendly: '#',
     },
     socials: [
       { label: 'LinkedIn', url: '#' },
-      { label: 'Instagram', url: '#' },
+      { label: 'Facebook', url: '#' },
       { label: 'YouTube', url: '#' },
     ],
   },
