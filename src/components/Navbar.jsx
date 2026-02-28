@@ -12,7 +12,7 @@ const navLinks = [
 
 function Navbar() {
   return (
-    <header className="fixed inset-x-0 top-0 z-40 border-b border-white/10 bg-noir/75 backdrop-blur-md">
+    <header className="fixed inset-x-0 top-0 z-40 bg-noir/55 backdrop-blur-md">
       <nav className="section-shell flex h-16 items-center justify-between gap-4" aria-label="Main navigation">
         <button
           type="button"

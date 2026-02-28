@@ -26,6 +26,48 @@ body {
   @apply mx-auto w-full max-w-7xl px-6 md:px-10;
 }
 
+.hero-silk-region {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.hero-silk-canvas {
+  position: absolute;
+  inset: 0;
+  z-index: -4;
+  pointer-events: none;
+}
+
+.hero-silk-canvas canvas {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+
+.hero-silk-tint {
+  position: absolute;
+  inset: 0;
+  z-index: -3;
+  background:
+    radial-gradient(90% 70% at 15% 20%, rgba(212, 175, 55, 0.16), transparent 72%),
+    radial-gradient(80% 60% at 88% 16%, rgba(212, 175, 55, 0.12), transparent 70%),
+    linear-gradient(to bottom, rgba(9, 9, 9, 0.58), rgba(9, 9, 9, 0.86));
+  pointer-events: none;
+}
+
+.hero-silk-bottom-fade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: clamp(90px, 16vw, 180px);
+  background: linear-gradient(to bottom, rgba(9, 9, 9, 0), rgba(9, 9, 9, 0.82) 55%, rgba(9, 9, 9, 1) 100%);
+  filter: blur(2px);
+  pointer-events: none;
+  z-index: 5;
+}
+
 @media (min-width: 1024px) {
   main {
     scroll-snap-type: y proximity;
@@ -45,5 +87,114 @@ body {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+.chip-glint {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.chip-glint::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  width: 45%;
+  background: linear-gradient(
+    100deg,
+    transparent 0%,
+    rgba(212, 175, 55, 0.08) 35%,
+    rgba(212, 175, 55, 0.55) 50%,
+    rgba(212, 175, 55, 0.08) 65%,
+    transparent 100%
+  );
+  transform: translateX(-170%) skewX(-20deg);
+  animation: chip-glint-sweep 4s ease-in-out infinite;
+  animation-delay: var(--glint-delay, 0s);
+  pointer-events: none;
+}
+
+.star-border-card {
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.star-border-card::before {
+  content: '';
+  position: absolute;
+  inset: -140%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    rgba(212, 175, 55, 0.1) 45deg,
+    rgba(212, 175, 55, 0.95) 82deg,
+    rgba(245, 224, 151, 0.7) 95deg,
+    rgba(212, 175, 55, 0.12) 125deg,
+    transparent 165deg,
+    transparent 360deg
+  );
+  animation: star-border-spin 6s linear infinite;
+}
+
+.star-border-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(212, 175, 55, 0.06) 38%,
+    rgba(245, 224, 151, 0.34) 50%,
+    rgba(212, 175, 55, 0.06) 62%,
+    transparent 100%
+  );
+  transform: translateX(-130%);
+  animation: star-border-sheen 5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.star-border-inner {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background: #0a0a0a;
+}
+
+@keyframes star-border-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes star-border-sheen {
+  0%,
+  68% {
+    transform: translateX(-130%);
+    opacity: 0;
+  }
+  76% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(130%);
+    opacity: 0;
+  }
+}
+
+@keyframes chip-glint-sweep {
+  0%,
+  70% {
+    transform: translateX(-170%) skewX(-20deg);
+    opacity: 0;
+  }
+  78% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(240%) skewX(-20deg);
+    opacity: 0;
   }
 }

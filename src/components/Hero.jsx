@@ -1,4 +1,5 @@
 import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion';
+import Silk from './Silk';
 import { siteContent } from '../data/content';
 import { scrollToSection } from '../utils/scrollToSection';
 
@@ -10,9 +11,13 @@ function Hero() {
   const textY = useTransform(scrollYProgress, [0, 0.2], [0, reducedMotion ? 0 : -30]);
 
   return (
-    <section id="hero" className="snap-section min-h-[120vh] pt-16">
-      <div className="sticky top-16 flex min-h-[calc(100vh-4rem)] items-center">
-        <div className="section-shell grid gap-12 py-16 lg:grid-cols-2 lg:items-center">
+    <section id="hero" className="hero-silk-region snap-section min-h-[120vh]">
+      <div aria-hidden className="hero-silk-canvas">
+        <Silk speed={5} scale={1} color="#D4AF37" noiseIntensity={1.2} rotation={0.12} />
+      </div>
+      <div aria-hidden className="hero-silk-tint" />
+      <div className="sticky top-16 z-10 flex min-h-[calc(100vh-4rem)] items-center">
+        <div className="section-shell grid gap-12 pb-16 pt-24 lg:grid-cols-2 lg:items-center">
           <motion.div style={{ y: textY }} className="space-y-7">
             <p className="text-xs uppercase tracking-[0.35em] text-gold/90">Personal Brand</p>
             <h1 className="font-display text-4xl leading-tight text-ivory sm:text-5xl lg:text-6xl">{siteContent.profile.name}</h1>
@@ -37,17 +42,22 @@ function Hero() {
           </motion.div>
 
           <motion.div style={{ y: imageY }} className="relative">
-            <img
-              src={siteContent.profile.image}
-              alt={`${siteContent.profile.name} portrait`}
-              className="h-[420px] w-full rounded-3xl border border-white/10 object-cover object-top shadow-2xl sm:h-[500px] lg:h-[560px]"
-              fetchPriority="high"
-            />
+            <div className="star-border-card rounded-3xl p-[1.5px] shadow-2xl">
+              <div className="star-border-inner rounded-[1.45rem]">
+                <img
+                  src={siteContent.profile.image}
+                  alt={`${siteContent.profile.name} portrait`}
+                  className="h-[420px] w-full rounded-[1.35rem] object-cover object-top sm:h-[500px] lg:h-[560px]"
+                  fetchPriority="high"
+                />
+              </div>
+            </div>
             <div className="mt-5 flex flex-wrap gap-3">
-              {siteContent.profile.chips.map((chip) => (
+              {siteContent.profile.chips.map((chip, index) => (
                 <span
                   key={chip}
-                  className="rounded-full border border-gold/50 bg-noir/85 px-4 py-2 text-xs font-semibold tracking-wide text-gold"
+                  className="chip-glint rounded-full border border-gold/50 bg-noir/85 px-4 py-2 text-xs font-semibold tracking-wide text-gold"
+                  style={{ '--glint-delay': `${index * 0.8}s` }}
                 >
                   {chip}
                 </span>
@@ -56,6 +66,7 @@ function Hero() {
           </motion.div>
         </div>
       </div>
+      <div aria-hidden className="hero-silk-bottom-fade" />
     </section>
   );
 }
