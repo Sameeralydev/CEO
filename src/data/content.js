@@ -1,10 +1,9 @@
 export const siteContent = {
   profile: {
-    name: 'Sameer Khan',
+    name: 'Umer Riaz',
     title: 'Entrepreneur | Investor | Founder',
     tagline: 'I build & scale businesses across real estate, commerce, and logistics.',
-    image:
-      'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=900&q=80',
+    image: '/UmerRiaz.png',
     chips: ['10+ yrs', '5 ventures', '200+ team'],
   },
   stats: [

@@ -18,7 +18,7 @@ function Navbar() {
           onClick={() => scrollToSection('hero')}
           className="font-display text-xl text-ivory transition hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
         >
-          SK
+          Spectrum
         </button>
         <ul className="flex items-center gap-4 overflow-x-auto text-xs text-nowrap pr-1 md:gap-6 md:text-sm">
           {navLinks.map((link) => (

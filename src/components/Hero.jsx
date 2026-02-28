@@ -39,7 +39,7 @@ function Hero() {
             <img
               src={siteContent.profile.image}
               alt={`${siteContent.profile.name} portrait`}
-              className="h-[480px] w-full rounded-3xl border border-white/10 object-cover shadow-2xl"
+              className="h-[420px] w-full rounded-3xl border border-white/10 object-cover object-top shadow-2xl sm:h-[500px] lg:h-[560px]"
               fetchPriority="high"
             />
             <div className="mt-5 flex flex-wrap gap-3">
