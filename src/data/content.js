@@ -59,7 +59,7 @@ export const siteContent = {
       url: '#',
       cta: 'Explore Now',
       image:
-        'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80',
+        'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80',
     },
     {
       name: 'School of Early Skills (SOES)',
@@ -72,7 +72,7 @@ export const siteContent = {
       url: '#',
       cta: 'Explore Now',
       image:
-        'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80',
+        'https://images.unsplash.com/photo-1588072432904-843af37f03ed?auto=format&fit=crop&w=1200&q=80',
     },
     {
       name: 'URAI Technologies',
@@ -85,7 +85,7 @@ export const siteContent = {
       url: '#',
       cta: 'Explore Now',
       image:
-        'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80',
+        'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80',
     },
     {
       name: 'TNT Solutions',
@@ -98,7 +98,7 @@ export const siteContent = {
       url: '#',
       cta: 'Explore Now',
       image:
-        'https://images.unsplash.com/photo-1556742031-c6961e8560b0?auto=format&fit=crop&w=1200&q=80',
+        'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80',
     },
     {
       name: 'Digital Marketing & AI Growth Solutions',
@@ -111,7 +111,7 @@ export const siteContent = {
       url: '#',
       cta: 'Explore Now',
       image:
-        'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+        'https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&w=1200&q=80',
     },
     {
       name: 'E-Commerce Hub',
@@ -124,7 +124,7 @@ export const siteContent = {
       url: '#',
       cta: 'Explore Now',
       image:
-        'https://images.unsplash.com/photo-1556742031-c6961e8560b0?auto=format&fit=crop&w=1200&q=80',
+        'https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1200&q=80',
     },
     {
       name: 'Akbari Bazar',
@@ -137,7 +137,7 @@ export const siteContent = {
       url: '#',
       cta: 'Explore Now',
       image:
-        'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+        'https://images.unsplash.com/photo-1515543904379-3d757afe72e4?auto=format&fit=crop&w=1200&q=80',
     },
     {
       name: 'APNA TOY',
@@ -163,7 +163,7 @@ export const siteContent = {
       url: '#',
       cta: 'Explore Now',
       image:
-        'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1200&q=80',
+        'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80',
     },
     {
       name: 'BOOTAY WALA',
@@ -273,12 +273,12 @@ export const siteContent = {
   },
   contact: {
     heading: "Let's Build Something That Matters.",
-    email: 'your-email@domain.com',
-    phone: '+92-XXX-XXXXXXX',
+    email: 'Contact@umerriaz.com',
+    phone: '03334609885',
     location: 'Pakistan (Available globally)',
     links: {
-      whatsapp: '#',
-      email: 'mailto:your-email@domain.com',
+      whatsapp: 'https://wa.me/923334609885',
+      email: 'mailto:Contact@umerriaz.com',
       calendly: '#',
     },
     socials: [
@@ -288,3 +288,6 @@ export const siteContent = {
     ],
   },
 };
+
+
+
